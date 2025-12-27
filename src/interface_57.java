@@ -1,6 +1,6 @@
 import java.sql.SQLOutput;
 
-interface Camera{
+interface  Camera{
     void takeSnap();
     void recordVideo();
     private void greet(){//can't use in mysmartphn but can be used in default method
