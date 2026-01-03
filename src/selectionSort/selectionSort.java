@@ -1,3 +1,5 @@
+package selectionSort;
+
 import java.util.Arrays;
 
 public class selectionSort {
@@ -9,7 +11,7 @@ public class selectionSort {
     }
     static void selection(int[] arr){
         for(int i=0; i<arr.length; i++){
-            //find max element and swap it with it's currect index
+            //find max element and swap it with it's correct index
             int last = arr.length-i-1;//if i=0 the last=6-1=5 so the max value that is 99 will go to the index 5
             int maxIndex=getMaxIndex(arr,0,last);
             swap(arr,maxIndex,last);

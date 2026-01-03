@@ -1,3 +1,5 @@
+package StringandStringbuilder;
+
 import java.util.Arrays;
 
 public class stringPreetyPrinting {

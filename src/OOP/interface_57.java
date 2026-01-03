@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+package OOP;
 
 interface  Camera{
     void takeSnap();

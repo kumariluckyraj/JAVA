@@ -1,3 +1,5 @@
+package Binarysearch;
+
 public class BinarySearch {
     static void main(String[] args) {
        int[] arr = {-2,0,5,6,12,18,100,800};

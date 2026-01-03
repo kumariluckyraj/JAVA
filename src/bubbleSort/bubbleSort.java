@@ -1,3 +1,5 @@
+package bubbleSort;
+
 import java.util.Arrays;
 //buuble sort is stable
 public class bubbleSort {

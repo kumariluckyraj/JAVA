@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Recursion {
+public class Message {
     public static void main(String[] args) {
         msg(); //1.msg will be called
         //9. msg() will come out

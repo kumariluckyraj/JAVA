@@ -1,3 +1,5 @@
+package StringandStringbuilder;
+
 public class string {
     public static void main(String[] args) {
         //then what can we do to chnage a?
@@ -7,7 +9,7 @@ public class string {
         System.out.println(a);
 
     }
-    //string pool is a saperate memory in the heap which sores the data e.g->kunal
+    //StringandStringbuilder.string pool is a saperate memory in the heap which sores the data e.g->kunal
     //String a="kunal"
     //String b="kunal"
     //if a==b->true coz it is in the same pool

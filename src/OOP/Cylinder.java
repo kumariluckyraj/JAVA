@@ -1,3 +1,5 @@
+package OOP;
+
 import java.util.Scanner;
 public class Cylinder {
     private double radius;
@@ -22,8 +24,8 @@ public class Cylinder {
         System.out.println("height:");
         double h = sc.nextDouble();
         Cylinder cyl = new Cylinder(r,h);
-        System.out.println("Surface Area of Cylinder: " + cyl.getArea());
-        System.out.println("Volume of Cylinder: " + cyl.getVolume());
+        System.out.println("Surface Area of OOP.Cylinder: " + cyl.getArea());
+        System.out.println("Volume of OOP.Cylinder: " + cyl.getVolume());
         sc.close();
     }
 

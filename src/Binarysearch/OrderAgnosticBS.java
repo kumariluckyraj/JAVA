@@ -1,3 +1,5 @@
+package Binarysearch;
+
 public class OrderAgnosticBS {
     public static void main(String[] args) {
         int[] arr = {22,10,5,4,2,0,-6};

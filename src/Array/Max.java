@@ -1,3 +1,5 @@
+package Array;
+
 public class Max {
     static void main(String[] args) {
         int[] arr = {1,22,3,4,5};

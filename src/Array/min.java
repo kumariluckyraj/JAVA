@@ -1,3 +1,5 @@
+package Array;
+
 public class min {
     public static void main(String[] args) {
         int[] nums={2, 5, 8, 7,1,8};

@@ -1,3 +1,5 @@
+package Binarysearch;
+
 import java.util.Arrays;
 
 public class SortedMatrixSearch {

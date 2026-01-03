@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Reversenum {
+public class Palindrom {
     public static void main(String[] args) {
 
         System.out.println(palin(1234321));

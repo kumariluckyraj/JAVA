@@ -1,3 +1,5 @@
+package insertionsort;
+
 import java.util.Arrays;
 
 public class insertion {
@@ -8,7 +10,7 @@ public class insertion {
            System.out.println(Arrays.toString(arr));
 
     }
-    //in insertion sort no. of steps are reduced if the array is aready sorted then the loop will break
+    //in insertionsort.insertion sort no. of steps are reduced if the array is aready sorted then the loop will break
     //it is stable
     //used for smalled values of n and works good when the array is partially sorted so it takes part in hybrid sorting algo(combined bubble and selection sort)
     static void insertion(int[] arr){

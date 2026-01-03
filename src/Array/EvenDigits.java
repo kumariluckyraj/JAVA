@@ -1,3 +1,5 @@
+package Array;
+
 public class EvenDigits {
     public static void main(String[] args) {
         int[] nums={1,34,5,7444,6};

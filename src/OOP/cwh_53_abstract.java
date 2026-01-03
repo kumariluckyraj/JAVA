@@ -1,4 +1,4 @@
-
+package OOP;
 
 abstract class Parent2{
     public Parent2(){//parent2 bas eek zariya hai eek actual/concerete class(child2) bnanane ka
@@ -37,7 +37,7 @@ abstract class Child3 extends Parent2{
 
 public class cwh_53_abstract {
     static void main(String[] args) {
-        //Parent2 p = new Parent2();//wrong coz it is an abstract class so can't create an abject of abstract class
+        //OOP.Parent2 p = new OOP.Parent2();//wrong coz it is an abstract class so can't create an abject of abstract class
         Child2 c= new Child2();// can do this coz this is a concerete class and not abstract
     }
 }

@@ -1,3 +1,5 @@
+package OOP;
+
 public class Employee {
    private int salary;
    private String name;
