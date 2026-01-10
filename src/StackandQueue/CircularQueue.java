@@ -27,8 +27,12 @@ public class CircularQueue {
         if(isFull()){
             return false;
         }
-        data[end++] = item;//first it will assign item to end and then increase end
-        end = end % data.length;
+        data[end++] = item;//let end = 3 do end++=4
+        end = end % data.length;//let data.length = 5, end = 4 % 5 = 4;   // unchanged
+        //end = 5;
+        //data.length = 5;
+
+       // end = 5 % 5 = 0;
         size++;
         return true;
     }
